@@ -1,0 +1,56 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+body, html{
+   
+  
+  background-size: cover;
+  background-color: cadetblue;
+}
+
+.home {
+    background-color: blue;
+    color:white ;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    padding-top:10px
+    
+
+   
+}
+
+.navbar{
+    display: flex;
+  justify-content: space-around;
+}
+  
+
+a:Hover{
+    background-color: blue;
+    color: white;
+    transition-duration: 0.5s;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    height: 30px;
+    width:100px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-content: center;
+
+}
+.logo {
+    color:rgb(15, 1, 1);
+    font-size: 38px;
+    font-weight: 600;
+
+}
